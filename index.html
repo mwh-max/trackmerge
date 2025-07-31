@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>TrackMerge</title>
+</head>
+<body>
+  <div class="card">
+  <h1>TrackMerge</h1>
+  <input id="trackingInput" placeholder="Enter tracking number..." />
+
+<small id="hints">
+  Supported formats:  
+  <ul>
+    <li>UPS: <code>1Z999AA10123456784</code></li>
+    <li>FedEx: <code>123456789012</code></li>
+    <li>USPS: <code>9400110897700000000000</code></li>
+    <li>DHL: <code>JD0146000037123456</code></li>
+    <li>Amazon: <code>TBA123456789</code></li>
+    <li>Lasership: <code>LS12345678US</code></li>
+  </ul>
+</small>
+
+  <button id="checkBtn">Check Status</button>
+  <div id="result"></div>
+</div>
+  <script src="tracker.js"></script>
+</body>
+</html>
